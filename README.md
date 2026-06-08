@@ -1,7 +1,8 @@
 # 🚲 Bike Sales Dashboard
  
-An interactive Excel dashboard analyzing global bike sales data across multiple countries, product categories, age groups, and years.
- 
+An interactive Excel dashboard analyzing global bike sales data across multiple countries, product categories, age groups, and years.  
+<img width="1149" height="510" alt="image" src="https://github.com/user-attachments/assets/8ef1194d-9b10-4921-89f4-43ec33143c45" />
+
 ---
  
 ## 📌 Introduction
@@ -11,7 +12,7 @@ This project presents a sales analytics dashboard built entirely in Microsoft Ex
 ---
 
 ### Dashboard File
-My final dashboard is in...
+My final dashboard is in [Excel_Project-Data_Analytics](https://github.com/karunikbauddh2/Excel_Project-Data_Analytics/tree/main)
 
 ### Excel Skills Used
 The following Excel skills were utilized for analysis:
@@ -20,8 +21,8 @@ The following Excel skills were utilized for analysis:
 - 🧮 Formulas and Functions  
 - ❎ Data Validation
 
-  ### Dataset
-The dataset used for this project contains real-world data from sales of Bikes accross vaious countries. The dataset is available on Keggal.com, here is the link [Title](https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe/discussion/252420).
+### Dataset
+The dataset used for this project contains data from sales of Bikes accross vaious countries. The dataset is available on Keggal.com, here is the link to the [dataset](https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe/data).
 It includes detailed information on:  
 - 📅 Order Date  
 - 👥 Age Group  
@@ -40,9 +41,10 @@ It includes detailed information on:
 - 📉 Data Organization: Sorted years by ascending order for improved readability.
 - 💡 Insights Gained: This enables quick identification of revenue, noting that 2015 saw the hghest revenue from Bike sales in Australia.
 
-### 🗺️ Country wise Revenue - Map Chart
+### 🗺️ Country wise Revenue - Map Chart  
 
-Insert Map Chart Here
+<img width="691" height="375" alt="image" src="https://github.com/user-attachments/assets/b94bb004-93b0-40a0-9955-688a31506123" />
+
 
 - 🛠️ Excel Features: Utilized Excel's map chart feature to plot revenue globally.
 - 🎨 Design Choice: Color-coded map to visually differentiate revenue levels across regions.
@@ -53,7 +55,7 @@ Insert Map Chart Here
 
 ### 🧮 Formulas and Functions
 
-💰 **Median Salary by Job Titles**  
+💰 **Yearly Revenue**  
   ```excel
 =SUM(
    IF(
