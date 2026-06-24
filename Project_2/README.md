@@ -8,7 +8,7 @@ Using Excel's advanced data analysis capabilities, I built an interactive dashbo
 To better understand the EV market, I explored the following questions:
 
 1. How is the EV market split between Battery Electric Vehicles BEVs and PHEVs?  
-2. How has EV production evolved over time?  
+2. How has EV production evolved over time? And what will the next 10 years look like for EVs?
 3. What are the Top 10 manufacturers by market share?  
 4. What are the Top 10 even Models?  
 5. Which electric utility providers serve the largest EV owner base?  
@@ -64,13 +64,40 @@ Vehicle registrations were categorized into:
 
 📈The growing preference for fully electric vehicles indicates increasing consumer confidence in EV technology, charging infrastructure, and battery performance.  
 
-## 2️⃣ How has EV production evolved over time?  
+## 2️⃣ How has EV production evolved over time?  And what will the next 10 years look like for EVs?
+
+### 📈 Skill: Pivot Charts, Slicer & Forecasting  
+**Pivot Chart & Slicer**  
+
+
+📊 **Analysis**
+
+Annual EV registrations were analyzed using a trend chart to identify adoption patterns over time.
+
+💡 **Insights**  
+- EV registrations have grown substantially in recent years.  
+- The strongest growth occurred during the latest model years, reflecting increased consumer demand.
+  
+🤔 **So What?**  
+
+The upward trend highlights the accelerating transition toward electric mobility and the increasing role EVs play in the automotive industry.  
 
 
 ## 3️⃣ What are the Top 10 manufacturers by market share?  
-### Skills: PivotTables & DAX  
+### 🧮Skills: PivotTables & DAX  
 📈**Pivot Table**  
 
 🔢 I created a PivotTable using the Data Model I created with Power Pivot.  
 📊 I moved the Make to the rows area. 
-🧮 Then I added new measure to calculate the count of model produced by every make.
+🧮 Then I added new measure to calculate the count of model produced by every make.  
+```excel
+=COUNT(Top_10_EV_Makers[Make])
+```
+💡 **Insights**  
+- A small group of manufacturers dominates the EV market.  
+- Leading brands contribute a significant share of total EV registrations.
+<img width="633" height="331" alt="image" src="https://github.com/user-attachments/assets/47f1f386-2eb7-4a27-8321-d4ad17ddab6e" />
+
+🤔 **So What?**  
+
+Understanding market leaders helps identify companies driving innovation and consumer adoption within the EV industry.
