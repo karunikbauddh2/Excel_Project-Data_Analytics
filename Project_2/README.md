@@ -63,3 +63,14 @@ Vehicle registrations were categorized into:
 🤔 **So What?**  
 
 📈The growing preference for fully electric vehicles indicates increasing consumer confidence in EV technology, charging infrastructure, and battery performance.  
+
+## 2️⃣ How has EV production evolved over time?  
+
+
+## 3️⃣ What are the Top 10 manufacturers by market share?  
+### Skills: PivotTables & DAX  
+📈**Pivot Table**  
+
+🔢 I created a PivotTable using the Data Model I created with Power Pivot.  
+📊 I moved the Make to the rows area. 
+🧮 Then I added new measure to calculate the count of model produced by every make.
