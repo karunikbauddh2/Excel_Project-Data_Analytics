@@ -34,3 +34,23 @@ The dataset used for this project contains real-world electric vehicle registrat
 🏢 Electric Utility Provider  
 📅 Model Year  
 🏭 Manufacturer  
+
+## 1️⃣ How is the EV market split between Battery Electric Vehicles BEVs and PHEVs?  
+### 🔍 Skill: Power Query (ETL)  
+
+
+📊 **Analysis**  
+
+Vehicle registrations were categorized into:  
+
+- Battery Electric Vehicles (BEVs)  
+- Plug-in Hybrid Electric Vehicles (PHEVs)  
+
+💡 **Insights**  
+
+- BEVs account for the majority of registered electric vehicles.  
+- PHEVs represent a smaller but still significant segment of the EV market.  
+
+🤔 **So What?**  
+
+📈The growing preference for fully electric vehicles indicates increasing consumer confidence in EV technology, charging infrastructure, and battery performance.  
