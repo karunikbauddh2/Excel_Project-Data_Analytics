@@ -43,7 +43,8 @@ I changed the query by renaming the state abbreviations, removing null values, a
 
 🔗**Load**  
 Finally, I loaded the query into the workbook, setting the foundation for my subsequent analysis.
-<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/bbaf8aba-2ca7-4b60-9441-fcdac3e7e9dd" />  
+<img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/8fd3cdc0-b5ec-47c9-bd7c-ab53dcec1a68" />  
+ 
 
 
 📊 **Analysis**  
@@ -102,19 +103,32 @@ The upward trend highlights the accelerating transition toward electric mobility
 - 📊 I moved the Make to the rows area. 
 - 🧮 Then I added new measure to calculate the count of model produced by every make.  
 ```excel
-=COUNT(Top_10_EV_Makers[Make])
+=COUNT(Top_10_Manufacturers[Make])
 ```
 💡 **Insights**  
 - A small group of manufacturers dominates the EV market.  
 - Leading brands contribute a significant share of total EV registrations.
-<img width="633" height="331" alt="image" src="https://github.com/user-attachments/assets/47f1f386-2eb7-4a27-8321-d4ad17ddab6e" />
+<img width="660" height="319" alt="image" src="https://github.com/user-attachments/assets/54ce087e-0ad9-47af-8382-e9d180e13298" />  
+
 
 🤔 **So What?**  
 
 Understanding market leaders helps identify companies driving innovation and consumer adoption within the EV industry.  
 
 ## 4️⃣ What are the Top 10 EV Models?  
-📈 **Skill: Ranking Analysis**  
+📈 **Skill: Ranking Analysis** 
+
+- Grouped Rows together and counted each model.
+- Added a custom column with Power Query Formula to get only the top model of every manufacturer.
+ ```excel
+ = Table.AddColumn(#"Grouped Rows", "Custom", each Table.First([Top_Model]))
+```
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/ef0477c9-c5c4-4611-a18c-c825b151a48a" />  
+
+- Plotted the custom values in the Pivot Table and made a Pivot graph explaining the Top 10 ranked EV Model.
+  
+<img width="486" height="294" alt="image" src="https://github.com/user-attachments/assets/ae177969-8d1a-48c2-9079-effbe93ba69f" />  
+
 
 💡 Insights  
 
@@ -123,4 +137,6 @@ Understanding market leaders helps identify companies driving innovation and con
   
 🤔 **So What?**  
 
-Popular models provide insight into the features and vehicle segments most valued by consumers.
+Popular models provide insight into the features and vehicle segments most valued by consumers.  
+
+## 5️⃣ Which electric utility providers serve the largest EV owner base?
