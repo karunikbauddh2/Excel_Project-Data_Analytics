@@ -66,17 +66,25 @@ Vehicle registrations were categorized into:
 
 ## 2️⃣ How has EV production evolved over time?  And what will the next 10 years look like for EVs?
 
-### 📈 Skill: Pivot Charts, Slicer & Forecasting  
+### 📈 Skill: Pivot Chart, Slicer & Forecasting  
 **Pivot Chart & Slicer**  
+🔢 I created a Pivot Chart with Pivot Query using the Model Year.    
+📊 I also connected a Slicer with the Pivot Chart to easily filter through different car manufaturers.   
+<img width="806" height="294" alt="image" src="https://github.com/user-attachments/assets/1fdb5909-a954-47a1-bce3-868834d6af05" />  
+
+**Forecasting** 
+🔢 With the same Pivot Chart I created a forecast of EV production for the next 10 years.  
+<img width="650" height="314" alt="image" src="https://github.com/user-attachments/assets/99ddd9b6-b475-4034-bade-2375fff578b1" />  
 
 
 📊 **Analysis**
 
-Annual EV registrations were analyzed using a trend chart to identify adoption patterns over time.
+- Annual EV registrations were analyzed using a trend chart to identify adoption patterns over time.  
+- Long-term demand for EVs remains positive.
 
 💡 **Insights**  
 - EV registrations have grown substantially in recent years.  
-- The strongest growth occurred during the latest model years, reflecting increased consumer demand.
+- Forecasts indicate a recovery and steady increase in EV production through 2036.
   
 🤔 **So What?**  
 
