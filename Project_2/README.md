@@ -14,7 +14,7 @@ To better understand the EV market, I explored the following questions:
 5. Which electric utility providers serve the largest EV owner base?  
 
 ### Dashboard File
-My final dashboard is in [Excel_Project-Data_Analytics](https://github.com/karunikbauddh2/Excel_Project-Data_Analytics/blob/main/Project_1/Bicycle_Sales_Dashboard.xlsx)
+My final dashboard is in [Excel_Project-Data_Analytics](https://github.com/karunikbauddh2/Excel_Project-Data_Analytics/blob/main/Project_2/Electric_Vehicle_Population_Data.csv.xlsx)
 
 ### Excel Skills Used  
 The following Excel skills were utilized for analysis:
