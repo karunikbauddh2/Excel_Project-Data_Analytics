@@ -12,7 +12,7 @@ This project presents a sales analytics dashboard built entirely in Microsoft Ex
 ---
 
 ### Dashboard File
-My final dashboard is in [Excel_Project-Data_Analytics](https://github.com/karunikbauddh2/Excel_Project-Data_Analytics/tree/main)
+My final dashboard is in [Excel_Project-Data_Analytics](https://github.com/karunikbauddh2/Excel_Project-Data_Analytics/blob/main/Project_1/Bicycle_Sales_Dashboard.xlsx)
 
 ### Excel Skills Used
 The following Excel skills were utilized for analysis:
