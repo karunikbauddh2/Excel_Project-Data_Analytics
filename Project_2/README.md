@@ -14,7 +14,11 @@ To better understand the EV market, I explored the following questions:
 5. Which electric utility providers serve the largest EV owner base?  
 
 ### Dashboard File
-My final dashboard is in [Excel_Project-Data_Analytics](https://github.com/karunikbauddh2/Excel_Project-Data_Analytics/blob/main/Project_2/Electric_Vehicle_Population_Data.csv.xlsx)
+My final dashboard is in [Excel_Project-Data_Analytics](https://github.com/karunikbauddh2/Excel_Project-Data_Analytics/blob/main/Project_2/Electric_Vehicle_Population_Data.csv.xlsx)  
+
+### Dataset
+The dataset used for this project contains data of the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL). The dataset is available on Data.Gov, here is the link to the [dataset](https://catalog.data.gov/dataset/electric-vehicle-population-data?from_hint=eyJxIjoiRWxlY3RyaWMgVmVoaWNsZSBQb3B1bGF0aW9uIiwic29ydCI6InJlbGV2YW5jZSJ9).  
+
 
 ### Excel Skills Used  
 The following Excel skills were utilized for analysis:
