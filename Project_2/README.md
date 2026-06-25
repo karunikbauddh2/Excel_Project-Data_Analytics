@@ -139,4 +139,29 @@ Understanding market leaders helps identify companies driving innovation and con
 
 Popular models provide insight into the features and vehicle segments most valued by consumers.  
 
-## 5️⃣ Which electric utility providers serve the largest EV owner base?
+## 5️⃣ Which electric utility providers serve the largest EV owner base?  
+  
+💪 **Power Pivot**  
+
+- 🔗 I created a data model by integrating the Top_10_Manufacturers and Electric_Utilty_Providers  2 tables into one model.  
+- 🧹 Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
+  
+🔗 **Data Model**
+- I created a relationship between my two tables using the index column.  
+<img width="540" height="482" alt="image" src="https://github.com/user-attachments/assets/67fa64bb-e1e7-45a5-ab7f-1fe5df495181" />  
+
+💡 **Insights**  
+
+A small number of utility providers support a large share of EV owners.
+Utility companies play a critical role in enabling EV adoption through charging infrastructure and energy support programs.  
+
+<img width="763" height="396" alt="image" src="https://github.com/user-attachments/assets/0de80df0-070f-4840-a893-4b378cd99bd3" />  
+
+
+🤔 **So What?**  
+
+Identifying leading utility providers highlights the importance of energy partnerships in supporting transportation electrification.   
+
+## Conclusion
+
+This project demonstrates how Excel can be used to transform raw electric vehicle registration data into meaningful business insights. By leveraging Pivot Tables, Pivot Charts, Power Query, and dashboard design techniques, I was able to identify EV adoption trends, market-leading manufacturers, regional patterns, and vehicle performance metrics.
