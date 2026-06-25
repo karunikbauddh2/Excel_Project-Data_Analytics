@@ -10,7 +10,7 @@ To better understand the EV market, I explored the following questions:
 1. How is the EV market split between Battery Electric Vehicles BEVs and PHEVs?  
 2. How has EV production evolved over time? And what will the next 10 years look like for EVs?
 3. What are the Top 10 manufacturers by market share?  
-4. What are the Top 10 even Models?  
+4. What are the Top 10 EV Models?  
 5. Which electric utility providers serve the largest EV owner base?  
 
 ### Excel Skills Used  
@@ -67,13 +67,16 @@ Vehicle registrations were categorized into:
 ## 2️⃣ How has EV production evolved over time?  And what will the next 10 years look like for EVs?
 
 ### 📈 Skill: Pivot Chart, Slicer & Forecasting  
+
 **Pivot Chart & Slicer**  
-🔢 I created a Pivot Chart with Pivot Query using the Model Year.    
-📊 I also connected a Slicer with the Pivot Chart to easily filter through different car manufaturers.   
+- 🔢 I created a Pivot Chart with Pivot Query using the Model Year.    
+- 📊 I also connected a Slicer with the Pivot Chart to easily filter through different car manufaturers.   
 <img width="806" height="294" alt="image" src="https://github.com/user-attachments/assets/1fdb5909-a954-47a1-bce3-868834d6af05" />  
 
-**Forecasting** 
-🔢 With the same Pivot Chart I created a forecast of EV production for the next 10 years.  
+  
+⛅**Forecasting**     
+
+- 🔢 With the same Pivot Chart I created a forecast of EV production for the next 10 years.  
 <img width="650" height="314" alt="image" src="https://github.com/user-attachments/assets/99ddd9b6-b475-4034-bade-2375fff578b1" />  
 
 
@@ -95,9 +98,9 @@ The upward trend highlights the accelerating transition toward electric mobility
 ### 🧮Skills: PivotTables & DAX  
 📈**Pivot Table**  
 
-🔢 I created a PivotTable using the Data Model I created with Power Pivot.  
-📊 I moved the Make to the rows area. 
-🧮 Then I added new measure to calculate the count of model produced by every make.  
+- 🔢 I created a PivotTable using the Data Model I created with Power Pivot.  
+- 📊 I moved the Make to the rows area. 
+- 🧮 Then I added new measure to calculate the count of model produced by every make.  
 ```excel
 =COUNT(Top_10_EV_Makers[Make])
 ```
@@ -108,4 +111,16 @@ The upward trend highlights the accelerating transition toward electric mobility
 
 🤔 **So What?**  
 
-Understanding market leaders helps identify companies driving innovation and consumer adoption within the EV industry.
+Understanding market leaders helps identify companies driving innovation and consumer adoption within the EV industry.  
+
+## 4️⃣ What are the Top 10 EV Models?  
+📈 **Skill: Ranking Analysis**  
+
+💡 Insights  
+
+- Certain EV models consistently outperform competitors in registrations.  
+- Top-selling models demonstrate strong market acceptance and brand loyalty.
+  
+🤔 **So What?**  
+
+Popular models provide insight into the features and vehicle segments most valued by consumers.
